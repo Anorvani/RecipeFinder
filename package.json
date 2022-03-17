@@ -1,0 +1,41 @@
+{
+  "name": "receipefinder",
+  "version": "1.0.0",
+  "description": "Search for receipes",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack --watch",
+    "server-dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anorvani/ReceipeFinder.git"
+  },
+  "author": "Alexandria Norvani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anorvani/ReceipeFinder/issues"
+  },
+  "homepage": "https://github.com/Anorvani/ReceipeFinder#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "webpack": "^5.70.0"
+  }
+}
